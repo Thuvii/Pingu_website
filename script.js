@@ -4,7 +4,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
 
     // Static image and GIF paths
     const staticImageSrc = './access/images/aesthetic-pingu-meme-desktop-wallpaper.jpg';
-    const gifImageSrc = 'Pingu_website/blob/main/121_Noot_noot.gif';
+    const gifImageSrc = 'Pingu_website/121_Noot_noot.gif';
 
     hoverImage.addEventListener('click', () => {
         hoverImage.src = gifImageSrc;
