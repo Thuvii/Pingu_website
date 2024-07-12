@@ -1,0 +1,226 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #292929;
+    font-family: 'Times New Roman', Times, serif ;
+}
+
+/* header */
+/* ----------------------------------- */
+header{
+    background-color: #b4befe;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 32px;
+    z-index: 1000;
+    position: fixed;
+    width: 100%;
+    
+}
+.head img{
+    width: 100px
+}
+.alt{
+    display: flex;
+    align-items: center;
+    gap: 32px;
+    
+}
+header ul{
+    display: flex;
+    gap:16px;
+    list-style: none;
+}
+header ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+header ul li a, .search-icon i{
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 15px; 
+    border-radius: 5px; 
+    transition: all 0.3s ease; 
+}
+.search-icon:hover i,header ul li a:hover {
+    color: #b4befe; 
+    background-color: #fff; 
+}
+/* ----------------------------------- */
+
+
+/* container */
+/* ----------------------------------- */
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 100vh;
+}
+/* ----------------------------------- */
+
+
+/* content */
+/* ----------------------------------- */
+.intro{
+    color: #b4befe;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:24px;
+    flex:1;
+    margin-top: 64px;
+    padding: 64px 0;
+}
+.content{
+    width: 400px;
+}
+.content button{
+    border: none;
+    border-radius: 8px;
+    background-color: #b4befe;
+    margin-top: 8px;
+    
+}
+.content button a{
+    display: block;
+    text-decoration: none;
+    color: white;
+    padding: 10px 15px;
+    text-transform: uppercase;
+    font-weight: bold;
+    transition: all 0.3s ease; 
+}
+.content button:hover a{
+    color: #b4befe;
+    background-color: rgba(255, 255, 255, 0.753);
+}
+.pointer{
+    font-size: 20px;
+    font-weight: bold;
+}
+.intro div img{
+    border-radius: 20px;
+}
+/* ----------------------------------- */
+
+
+/* info */
+/* ----------------------------------- */
+.info{
+    flex: 1;
+    background-color: #b4befe;
+    padding: 64px 0;
+    color: white;
+}
+.info h2{
+    font-size: 32px;
+    margin: auto;
+    text-align: center;
+}
+.infomation{
+    padding: 32px 0;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    gap: 32px;
+}
+
+.infomation div{
+    text-align: center;
+    width: 180px;
+    transition:all 0.3s ease;
+}
+.infomation div:hover{
+    transform: scale(1.1);
+}
+/* ----------------------------------- */
+
+/* quote */
+/* ----------------------------------- */
+.quote{
+    background-color: white;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 64px 0;
+}
+.quote-all{
+    width: 500px;
+    font-size: 24px;
+}
+
+.quote .author{
+    font-size: 20px;
+    font-weight: bold;
+    padding: 8px;
+    float: right;
+}
+/* ----------------------------------- */
+
+/* contact */
+/* ----------------------------------- */
+.contact{
+    background-color: #b4befe;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 64px 0;
+
+}
+
+.contact-content{
+    display: flex;
+    width: 500px;
+    border-radius: 20px;
+    background-color: white;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 32px;
+}
+
+.contact-content div{
+    text-align: left;
+}
+.contact-content button{
+    background-color: #b4befe;
+    border: none;
+    border-radius:8px ;
+}
+.contact-content button a{
+    display: block;
+    text-decoration: none;
+    color: white;
+    padding: 10px 15px;
+    text-transform: uppercase;
+    font-weight: bold;
+    transition: all 0.3s ease; 
+}
+.contact-content button:hover a{
+    color: #b4befe;
+    background-color: rgba(255, 255, 255, 0.753);
+}
+/* ----------------------------------- */
+
+/* footer */
+/* ----------------------------------- */
+footer{
+    text-align: center;
+    background-color: #b4befe;
+    border-top: 1px solid white;
+    padding: 28px 0;
+   
+}
+
+footer p{
+  text-decoration: underline;
+}
+/* ----------------------------------- */
